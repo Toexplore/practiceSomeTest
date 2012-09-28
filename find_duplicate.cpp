@@ -38,6 +38,7 @@ int find_duplicate(int *array,int n)
 		else		
 			new_array[array[i]] = array[i];			
 	}
+	free(new_array);
 	return -2;   //no duplicate
 }
 
