@@ -29,6 +29,7 @@ int find_duplicate(int *array,int n)
 	new_array = (int*)malloc(n*sizeof(int));
 	if (!new_array)	
 		return -1;    //memory allocated failure
+	memset(new_array,0,n*sizeof(int));
 		
 	//then,we loop the old array,take each item into the new array.
 	for (int i = 0; i < n+1;i++)
