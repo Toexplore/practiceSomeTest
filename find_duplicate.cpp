@@ -17,6 +17,8 @@
 **
 **Author:ToExplore
 **History:2012-9-28
+**
+**声明：后经高人指点，对代码做了些修改。但是该段代码只能满足O(1)时间，O(n)空间。与题目要求相反。
 */
 #include <stdio.h>
 #include <stdlib.h>
